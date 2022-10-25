@@ -17,7 +17,7 @@
 | Where do development discussions take place? | forum/blog/mailing list/twitter/youtube  |
 | Typical number of emails/comments per week? |once a month|
 | Typical number of commits per week? |1|
-| Typical commit size | `git log --shortstat` may be useful |
+| Typical commit size | 1-5 file changes |
 | How does the project accept contributions? | pull requests |
 | Does the project have an automated test suite? | yes |
 | Does the project use continuous integration? | no |
