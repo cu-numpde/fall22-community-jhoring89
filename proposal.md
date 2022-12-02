@@ -1,39 +1,37 @@
 # Community Software Analysis Proposal
-Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: *preCICE*
 
-*Write a paragraph describing what the software does and who its
-primary audience is.*
+*preCICE is a multi-physics coupling library that includes fluid-structure interactions, conjugate heat transfer and many others. This software does not include the actual physics solver, but instead leverages either open source solvers (such as OpenFoam/SU2/FeNICS) or allows for easy integration into your code. preCICE offers different coupling schemes such as explicit or implicit coupling, different mapping capabilities such as radial basis functions and different acceleration configurations such as quasi-newton schemes and dynamic aitken under-relaxation schemes depending on the strength of the coupling.*
 
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2021-10-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Repository URL |  https://github.com/precice/precice  |
+| Main/documentation website |  https://precice.org/index.html  |
+| Year project was started |  2008 |
+| Number of contributors in the past year | 17 |
+| Number of contributors in the lifetime of the project | 38 |
+| Number of distinct affiliations | >10 |
+| Where do development discussions take place? | forum/blog/mailing list/twitter/youtube  |
+| Typical number of emails/comments per week? |once a month|
+| Typical number of commits per week? |1|
+| Typical commit size | 1-5 file changes |
+| How does the project accept contributions? | pull requests |
+| Does the project have an automated test suite? | yes |
+| Does the project use continuous integration? | no |
+| Are any legal/licensing steps required to contribute? | no |
 
 ### Install and run
 
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [ ] I have installed the software
-- [ ] I have run at least one example
-- [ ] I have run the test suite
-- [ ] The test suite passes
+- [X] I have installed the software
+- [X] I have run at least one example
+- [X] I have run the test suite
+- [X] The test suite passes
 
 ### Notes/concerns/risks
 
